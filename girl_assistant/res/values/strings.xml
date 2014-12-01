@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">女人帮</string>
+    <string name="content_description"> </string>
     <string name="processing">加载中</string>
     <string name="error_web_notify_text">网络不给力</string>
 

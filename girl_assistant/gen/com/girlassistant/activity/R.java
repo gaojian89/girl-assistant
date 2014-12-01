@@ -125,24 +125,38 @@ public final class R {
         public static final int white=0x7f050004;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int pic_default=0x7f020001;
+        public static final int cover_0=0x7f020000;
+        public static final int cover_1=0x7f020001;
+        public static final int cover_2=0x7f020002;
+        public static final int cover_3=0x7f020003;
+        public static final int guide_but=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int index_0=0x7f020006;
+        public static final int index_1=0x7f020007;
+        public static final int index_2=0x7f020008;
+        public static final int index_3=0x7f020009;
+        public static final int pic_default=0x7f02000a;
     }
     public static final class id {
-        public static final int cover_layout=0x7f080002;
-        public static final int guide_page_act_image=0x7f080001;
+        public static final int cover_layout=0x7f080005;
+        public static final int guide_item_layout=0x7f080002;
+        public static final int guide_page_act_index=0x7f080001;
         public static final int guide_page_act_viewpager=0x7f080000;
-        public static final int loading_act_image=0x7f080003;
+        public static final int guide_page_item_btn=0x7f080003;
+        public static final int guide_page_item_image=0x7f080004;
+        public static final int loading_act_image=0x7f080006;
     }
     public static final class layout {
         public static final int guide_page_act=0x7f030000;
-        public static final int home_act=0x7f030001;
-        public static final int loading_act=0x7f030002;
+        public static final int guide_page_item=0x7f030001;
+        public static final int home_act=0x7f030002;
+        public static final int loading_act=0x7f030003;
     }
     public static final class string {
         public static final int app_name=0x7f060000;
-        public static final int error_web_notify_text=0x7f060002;
-        public static final int processing=0x7f060001;
+        public static final int content_description=0x7f060001;
+        public static final int error_web_notify_text=0x7f060003;
+        public static final int processing=0x7f060002;
     }
     public static final class style {
         /** 
