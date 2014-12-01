@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.grilassistant;
+package com.girlassistant;
 
 public final class R {
     public static final class attr {

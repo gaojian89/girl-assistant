@@ -10,7 +10,7 @@ import com.girlassistant.base.BgThread;
 import com.girlassistant.base.FileCache;
 import com.girlassistant.base.ImageCache;
 import com.girlassistant.imageloader.ImageLoader;
-import com.grilassistant.R;
+import com.girlassistant.R;
 import android.annotation.SuppressLint;
 import android.content.ContentResolver;
 import android.content.Context;

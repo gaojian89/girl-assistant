@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.grilassistant.BuildConfig;
+import com.girlassistant.BuildConfig;
 
 import android.app.AlertDialog;
 import android.content.Context;

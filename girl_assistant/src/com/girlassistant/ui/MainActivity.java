@@ -1,6 +1,6 @@
-package com.girlassistant;
+package com.girlassistant.ui;
 
-import com.grilassistant.R;
+import com.girlassistant.R;
 
 import android.os.Bundle;
 import android.app.Activity;
