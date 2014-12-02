@@ -36,10 +36,10 @@ public class LoadingAct extends BaseActivity {
 	private void intentTo() {
 		Intent intent = new Intent();
 		if (firstInstall) {
+			PreferenceUtils.saveBoolPreference(FIRST_INSTALL, false, this);
 			intent.setClass(this, GuidePageAct.class);
-
 		} else {
-
+			intent.setClass(this, HomeAct.class);
 		}
 		startActivity(intent);
 		overridePendingTransition(R.anim.in_from_right, R.anim.out_to_left);

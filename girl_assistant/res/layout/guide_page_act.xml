@@ -17,7 +17,7 @@
             android:id="@+id/guide_page_act_index"
             android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:src="@drawable/index_1"
+            android:src="@drawable/index_0"
             android:layout_alignParentBottom="true"
             android:layout_marginLeft="80dp"
             android:layout_marginRight="80dp"

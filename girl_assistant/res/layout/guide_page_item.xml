@@ -22,7 +22,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:scaleType="fitCenter"
-        android:src="@drawable/cover_1" 
+        android:src="@drawable/cover_0" 
         android:layout_above="@id/guide_page_item_btn"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"

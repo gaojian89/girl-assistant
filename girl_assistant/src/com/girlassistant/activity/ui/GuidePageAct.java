@@ -1,16 +1,17 @@
 package com.girlassistant.activity.ui;
 
 import java.util.ArrayList;
-import java.util.Hashtable;
-
 import com.girlassistant.activity.R;
 import com.girlassistant.activity.adapter.GuidePageAdapter;
-
+import android.view.GestureDetector.SimpleOnGestureListener;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.view.GestureDetector;
-import android.view.LayoutInflater;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.View.OnTouchListener;
 import android.widget.ImageView;
 
 /**
@@ -27,12 +28,14 @@ public class GuidePageAct extends BaseActivity implements OnPageChangeListener {
 	private ArrayList<Integer> listIndex;
 	private static final int GUIDE_COUNT = 4;;
 	private GuidePageAdapter adapter;
+	private int currentPage = 0;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.guide_page_act);
 		init();
+		setListener();
 	}
 
 	private void init() {
@@ -55,6 +58,61 @@ public class GuidePageAct extends BaseActivity implements OnPageChangeListener {
 		pager.setOffscreenPageLimit(1);
 	}
 
+	private void setListener() {
+		pager.setOnPageChangeListener(this);
+		pager.setOnTouchListener(new OnTouchListener() {
+
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				if (currentPage == 0 || currentPage == 3) {
+					return gestureDetector.onTouchEvent(event);
+				}
+				return false;
+			}
+		});
+		gestureDetector = new GestureDetector(this, new SimpleOnGestureListener() {
+
+			@Override
+			public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
+				if (e1 != null && e2 != null) {
+					int yDistance = (int) Math.abs(e1.getY() - e2.getY());
+					int xDistance = (int) (e1.getX() - e2.getX());
+					int xDistanceABS = (int) Math.abs(xDistance);
+
+					if (xDistance > 100 && xDistanceABS > yDistance) {
+
+						if (currentPage == 3) {
+
+							Intent intent = new Intent(getApplicationContext(), HomeAct.class);
+							startActivity(intent);
+							overridePendingTransition(R.anim.in_from_right, R.anim.out_to_left);
+							GuidePageAct.this.finish();
+
+						} else {
+
+							pager.setCurrentItem(currentPage + 1);
+
+						}
+
+						return true;
+
+					} else if (xDistance < -100 && xDistanceABS > yDistance) {
+
+						if (currentPage == 0) {
+
+						} else {
+
+							pager.setCurrentItem(currentPage - 1);
+						}
+						return true;
+					}
+				}
+				return false;
+			}
+
+		});
+	}
+
 	@Override
 	public void onPageScrollStateChanged(int arg0) {
 
@@ -67,7 +125,8 @@ public class GuidePageAct extends BaseActivity implements OnPageChangeListener {
 
 	@Override
 	public void onPageSelected(int arg0) {
-
+		indexImg.setImageResource(listIndex.get(arg0));
+		currentPage = arg0;
 	}
 
 }
