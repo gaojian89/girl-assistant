@@ -5,5 +5,10 @@
     <string name="content_description"> </string>
     <string name="processing">加载中</string>
     <string name="error_web_notify_text">网络不给力</string>
+    <string name="home_page">首页</string>
+    <string name="square">广场</string>
+    <string name="personal_center">个人中心</string>
+    <string name="release">发布</string>
+    
 
 </resources>
