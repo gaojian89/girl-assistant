@@ -14,9 +14,8 @@
 	<color name="cover4_bg">#cfdca2</color>
 	
 	<color name="powder">#FF00FF</color>
-	
-	
-	
-	
-	
+	<color name="deep_powder">#EE00EE</color>
+	<color name="home_fragment_grey">#E0E0E0</color>
+	<color name="home_fragment_deep_grey">#d0d0d0</color>
+	<color name="home_fragment_line_powder">#D200D2</color>
 </resources>

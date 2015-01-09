@@ -9,6 +9,8 @@
     <string name="square">广场</string>
     <string name="personal_center">个人中心</string>
     <string name="release">发布</string>
+    <string name="selected">精选</string>
+    <string name="attention">关注</string>
     
 
 </resources>

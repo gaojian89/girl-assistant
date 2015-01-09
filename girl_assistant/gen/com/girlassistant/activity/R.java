@@ -35,6 +35,10 @@ public final class R {
         public static final int cover2_bg=0x7f050008;
         public static final int cover3_bg=0x7f050009;
         public static final int cover4_bg=0x7f05000a;
+        public static final int deep_powder=0x7f05000c;
+        public static final int home_fragment_deep_grey=0x7f05000e;
+        public static final int home_fragment_grey=0x7f05000d;
+        public static final int home_fragment_line_powder=0x7f05000f;
         public static final int light_blue=0x7f050006;
         public static final int night_mode=0x7f050000;
         public static final int powder=0x7f05000b;
@@ -42,7 +46,9 @@ public final class R {
         public static final int white=0x7f050002;
     }
     public static final class dimen {
-        public static final int text_size_home_bottom=0x7f060000;
+        public static final int text_size_home_bottom=0x7f060001;
+        public static final int text_size_home_fragment_second_title=0x7f060002;
+        public static final int text_size_home_title=0x7f060000;
     }
     public static final class drawable {
         public static final int cover_0=0x7f020000;
@@ -50,42 +56,56 @@ public final class R {
         public static final int cover_2=0x7f020002;
         public static final int cover_3=0x7f020003;
         public static final int guide_but=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int index_0=0x7f020006;
-        public static final int index_1=0x7f020007;
-        public static final int index_2=0x7f020008;
-        public static final int index_3=0x7f020009;
-        public static final int pic_default=0x7f02000a;
+        public static final int home_act_bottom_menu_bg=0x7f020005;
+        public static final int homefragment_second_title_bg=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
+        public static final int index_0=0x7f020008;
+        public static final int index_1=0x7f020009;
+        public static final int index_2=0x7f02000a;
+        public static final int index_3=0x7f02000b;
+        public static final int pic_default=0x7f02000c;
     }
     public static final class id {
-        public static final int cover_layout=0x7f09000b;
+        public static final int content=0x7f09000a;
+        public static final int cover_layout=0x7f09000f;
         public static final int guide_item_layout=0x7f090002;
         public static final int guide_page_act_index=0x7f090001;
         public static final int guide_page_act_viewpager=0x7f090000;
         public static final int guide_page_item_btn=0x7f090003;
         public static final int guide_page_item_image=0x7f090004;
         public static final int home_act_bottom_menu=0x7f090005;
-        public static final int home_act_container=0x7f09000a;
         public static final int home_act_home_page=0x7f090006;
         public static final int home_act_personal_center=0x7f090008;
         public static final int home_act_release=0x7f090009;
         public static final int home_act_square=0x7f090007;
-        public static final int loading_act_image=0x7f09000c;
+        public static final int home_fragment_attention=0x7f09000c;
+        public static final int home_fragment_line=0x7f09000d;
+        public static final int home_fragment_pager=0x7f09000e;
+        public static final int home_fragment_selected=0x7f09000b;
+        public static final int loading_act_image=0x7f090010;
     }
     public static final class layout {
         public static final int guide_page_act=0x7f030000;
         public static final int guide_page_item=0x7f030001;
         public static final int home_act=0x7f030002;
-        public static final int loading_act=0x7f030003;
+        public static final int home_attention_fragment=0x7f030003;
+        public static final int home_fragment=0x7f030004;
+        public static final int home_selected_fragment=0x7f030005;
+        public static final int loading_act=0x7f030006;
+        public static final int personal_center_fragment=0x7f030007;
+        public static final int release_fragment=0x7f030008;
+        public static final int square_fragment=0x7f030009;
     }
     public static final class string {
         public static final int app_name=0x7f070000;
+        public static final int attention=0x7f070009;
         public static final int content_description=0x7f070001;
         public static final int error_web_notify_text=0x7f070003;
         public static final int home_page=0x7f070004;
         public static final int personal_center=0x7f070006;
         public static final int processing=0x7f070002;
         public static final int release=0x7f070007;
+        public static final int selected=0x7f070008;
         public static final int square=0x7f070005;
     }
     public static final class style {

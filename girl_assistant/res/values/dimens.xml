@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="text_size_home_title">15sp</dimen>
     <dimen name="text_size_home_bottom">16sp</dimen>
+    <dimen name="text_size_home_fragment_second_title">16sp</dimen>
 
 </resources>

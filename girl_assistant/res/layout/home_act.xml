@@ -5,62 +5,68 @@
     android:background="@color/white"
     android:orientation="vertical" >
 
-    <LinearLayout
+    <RadioGroup
         android:id="@+id/home_act_bottom_menu"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_alignParentBottom="true"
-        android:background="@color/powder"
-        android:orientation="horizontal"
-        android:paddingBottom="8dp"
-        android:paddingTop="8dp" >
+        android:gravity="center"
+        android:orientation="horizontal" >
 
-        <TextView
+        <RadioButton
             android:id="@+id/home_act_home_page"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_weight="1"
+            android:background="@drawable/home_act_bottom_menu_bg"
+            android:button="@null"
             android:gravity="center"
             android:text="@string/home_page"
             android:textColor="@color/white"
             android:textSize="@dimen/text_size_home_bottom" />
 
-        <TextView
+        <RadioButton
             android:id="@+id/home_act_square"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_weight="1"
+            android:background="@drawable/home_act_bottom_menu_bg"
+            android:button="@null"
             android:gravity="center"
             android:text="@string/square"
             android:textColor="@color/white"
             android:textSize="@dimen/text_size_home_bottom" />
 
-        <TextView
+        <RadioButton
             android:id="@+id/home_act_personal_center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_weight="1"
+            android:background="@drawable/home_act_bottom_menu_bg"
+            android:button="@null"
             android:gravity="center"
             android:text="@string/personal_center"
             android:textColor="@color/white"
             android:textSize="@dimen/text_size_home_bottom" />
 
-        <TextView
+        <RadioButton
             android:id="@+id/home_act_release"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_weight="1"
+            android:background="@drawable/home_act_bottom_menu_bg"
+            android:button="@null"
             android:gravity="center"
             android:text="@string/release"
             android:textColor="@color/white"
             android:textSize="@dimen/text_size_home_bottom" />
-    </LinearLayout>
+    </RadioGroup>
 
-    <RelativeLayout
-        android:id="@+id/home_act_container"
+    <FrameLayout
+        android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/home_act_bottom_menu" >
-    </RelativeLayout>
+    </FrameLayout>
 
 </RelativeLayout>
