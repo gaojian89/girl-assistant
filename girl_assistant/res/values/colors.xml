@@ -2,97 +2,18 @@
 <resources>
     <color name="night_mode">#c0000000</color>
     <color name="transparent">#00000000</color>
-    <!-- 透明色 -->
-    <color name="share_red">#e16161</color>
-    <color name="share_green">#99C9A3</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
-    <color name="shallow_gray">#333333</color>
-    <color name="people_list_item_tips_color">#ca141d</color>
-    <color name="comment_list_count_text_color">#6e6e6e</color>
-    <color name="main_tab_comment_color">#8b8b8b</color>
-    <color name="main_tab_divid_line">#f0f0f0</color>
-    <color name="item_divid_line_up">#cfcfcf</color>
-    <color name="item_divid_line_down">#ebebeb</color>
-    <color name="main_tab_account_background">#ebebeb</color>
-    <color name="home_gray">#999999</color>
-    <color name="home_red">#CD0000</color>
-    <!-- ask -->
-    <color name="listview_divider_line">#999999</color>
-    <color name="ask_text_gray">#999999</color>
-    <color name="ask_line">#cccccc</color>
-    <color name="ask_text_pink">#F27373</color>
-    <color name="ask_text_red">#dc2121</color>
-    <color name="ask_title_bar_text">#999999</color>
-    <color name="ask_text_black">#080808</color>
-    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
-    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
-    <color name="subscribe_item_selected_stroke">#ffdc2121</color>
-    <color name="subscribe_item_pressed_stroke">#ffdc2121</color>
-    <color name="subscribe_item_selected_bg">#ffffffff</color>
-    <color name="subscribe_item_disabled_stroke">#ffd9d9d9</color>
-    <color name="subscribe_item_disabled_bg">#ffefefef</color>
-    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
-    <color name="subscribe_item_normal_stroke">#ffcdcdcd</color>
-    <color name="subscribe_item_normal_bg">#fff5f5f5</color>
-    <color name="subscribe_item_text_color_pressed">#ffb9b9b9</color>
-    <color name="subscribe_tip_text">#ff2e2e2e</color>
-    <color name="subscribe_seperate_line">#ffcdcdcd</color>
-    <color name="subscribe_tab_normal">#ff555555</color>
-    <color name="subscribe_province_selected_bg">#e73737</color>
-    <color name="default_text">#ff454545</color>
-    <color name="ask_item_government">#6caddf</color>
     <color name="ask_item_type">#f16666</color>
     
-    <!-- <item name="subscribe_item_text_color_normal" type="color">@color/default_text</item> -->
-    <item name="subscribe_item_text_color_normal" type="color">@color/tab_item_text_normal</item>
-    <!-- setting -->
-    <color name="setting_bg">#f0f0f0</color>
-    <color name="night_row_title_text_color">#666666</color>
-    <color name="setting_font_line_gray">#f0f0f0</color>
-    <color name="setting_font_line_red">#d70000</color>
-    <!-- share -->
-    <color name="channel_item_textcolor">#707070</color>
-    <color name="paper_tab_bg_normal">#a0636363</color>
-    <color name="paper_tab_bg_press">#a03a3a3a</color>
     <color name="blue">#3366ff</color>
-    <color name="comment_list_text_color">#ea0c0c</color>
-    <color name="comment_list_text_color_normal">#8a8a8a</color>
-
-    <!-- 下拉上拉刷新webview -->
-    <!-- <color name="gray">#aaaaaa</color> -->
     <color name="light_blue">#6593cb</color>
-    <!-- 音频专题 -->
-    <color name="listen_red_title">#df3b3b</color>
-    <color name="listen_red_line">#f54b4b</color>
-    <color name="listen_subject_detail_info">#191919</color>
-    <color name="ask_progress_normal">#cdcdcd</color>
-    <color name="ask_progress_light">#ababab</color>
-
-    <!-- tab -->
-    <color name="tab_item_text_normal">#545454</color>
-    <color name="tab_item_text_selected">#dc212121</color>
-    <color name="tab_item_text_line">#dc212121</color>
-    <!-- fragment -->
-
-    <color name="fragment_middle">#f3f3f3</color>
-    <color name="main_title">#333333</color>
-    <color name="gov_tab_text_color_p">#dc2121</color>
-    <color name="gov_tab_text_color">#545454</color>
-    <color name="video_bg">#21000000</color>
-    <color name="user_nickname_noti">#EAA81D</color>
-    
     <color name="cover1_bg">#d67272</color>
 	<color name="cover2_bg">#96d3ff</color>
 	<color name="cover3_bg">#f2c483</color>
 	<color name="cover4_bg">#cfdca2</color>
 	
-	<!--帮  -->
-	<color name="help_raise_going_on">#7eb52e</color>
-	<color name="help_raise_the_end">#999999</color>
-	<color name="help_raise_feedback">#48a1ed</color>
-	
-	
+	<color name="powder">#FF00FF</color>
 	
 	
 	
