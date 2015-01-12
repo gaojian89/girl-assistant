@@ -7,7 +7,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="@dimen/view_height_main_title"
         android:background="@color/powder"
         android:gravity="center"
         android:text="@string/app_name"
@@ -32,7 +32,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/homefragment_second_title_bg"
                 android:gravity="center"
-                android:padding="4dp"
+                android:padding="@dimen/view_padding_main_second_title"
                 android:text="@string/selected"
                 android:textColor="@color/white"
                 android:textSize="@dimen/text_size_home_fragment_second_title" />
@@ -44,7 +44,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/homefragment_second_title_bg"
                 android:gravity="center"
-                android:padding="4dp"
+                android:padding="@dimen/view_padding_main_second_title"
                 android:text="@string/attention"
                 android:textColor="@color/white"
                 android:textSize="@dimen/text_size_home_fragment_second_title" />
@@ -57,15 +57,14 @@
             android:background="@color/home_fragment_line_powder"
             android:contentDescription="@string/app_name" />
     </LinearLayout>
+
     <android.support.v4.view.ViewPager
         android:id="@+id/home_fragment_pager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:flipInterval="30"
-        android:persistentDrawingCache="animation"
-        >
-        
+        android:persistentDrawingCache="animation" >
     </android.support.v4.view.ViewPager>
 
 </LinearLayout>

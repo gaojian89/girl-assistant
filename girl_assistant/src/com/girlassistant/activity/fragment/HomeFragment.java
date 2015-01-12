@@ -27,15 +27,13 @@ public class HomeFragment extends Fragment implements OnClickListener, OnPageCha
 	private Fragment selectedFragment, attentionFragment;
 	private TextView mTabSelectedTv, mTabAttention;
 	private ImageView mTabLineIv;
-	private int screenWidth;
-	private int currentIndex;
+	private int screenWidth, currentIndex;
 	private HomeAct act;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.home_fragment, null);
 		init(view);
-
 		return view;
 	}
 
@@ -103,7 +101,7 @@ public class HomeFragment extends Fragment implements OnClickListener, OnPageCha
 	}
 
 	/**
-	 * 设置滑动条的宽度为屏幕的1/3(根据Tab的个数而定)
+	 * 设置滑动条的宽度为屏幕的1/2(根据Tab的个数而定)
 	 */
 	private void initTabLineWidth() {
 		DisplayMetrics dpMetrics = new DisplayMetrics();

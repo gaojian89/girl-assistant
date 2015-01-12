@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">女人帮</string>
-    <string name="content_description"> </string>
+    <string name="content_description"></string>
     <string name="processing">加载中</string>
     <string name="error_web_notify_text">网络不给力</string>
     <string name="home_page">首页</string>
@@ -11,6 +11,9 @@
     <string name="release">发布</string>
     <string name="selected">精选</string>
     <string name="attention">关注</string>
-    
+    <string name="search_tip_user">搜索标签、用户</string>
+    <string name="talk">话题</string>
+    <string name="master">达人</string>
+    <string name="label">标签</string>
 
 </resources>

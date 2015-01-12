@@ -5,11 +5,103 @@
     android:background="@color/white"
     android:orientation="vertical" >
 
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="square_fragment"
-        android:textSize="18sp" />
+        android:layout_height="@dimen/view_height_main_title"
+        android:background="@color/powder" >
+
+        <ImageView
+            android:id="@+id/square_fragment_add"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/explore_menu_btn"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter" />
+
+        <EditText
+            android:id="@+id/square_fragment_search_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="22dp"
+            android:layout_toLeftOf="@id/square_fragment_add"
+            android:background="@color/square_fragment_search_bg"
+            android:hint="@string/search_tip_user"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="2dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/text_size_square_fragment_search"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/square_fragment_talk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/homefragment_second_title_bg"
+                android:gravity="center"
+                android:padding="@dimen/view_padding_main_second_title"
+                android:text="@string/talk"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_home_fragment_second_title" />
+
+            <TextView
+                android:id="@+id/square_fragment_master"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/homefragment_second_title_bg"
+                android:gravity="center"
+                android:padding="@dimen/view_padding_main_second_title"
+                android:text="@string/master"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_home_fragment_second_title" />
+            
+            <TextView
+                android:id="@+id/square_fragment_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/homefragment_second_title_bg"
+                android:gravity="center"
+                android:padding="@dimen/view_padding_main_second_title"
+                android:text="@string/label"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_home_fragment_second_title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/square_fragment_line"
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@color/home_fragment_line_powder"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/square_fragment_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" >
+    </android.support.v4.view.ViewPager>
 
 </LinearLayout>
