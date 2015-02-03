@@ -1,28 +1,26 @@
 package com.girlassistant.activity.fragment;
 
-import com.girlassistant.activity.R;
-import com.girlassistant.activity.ui.HomeAct;
+import com.girlassistant.controller.BaseListController;
 
-import android.app.Activity;
-import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
-public class HomeSelectedFragment extends Fragment {
-	private HomeAct act;
+public class HomeSelectedFragment extends BaseListFragment {
+
 
 	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		View view = inflater.inflate(R.layout.home_selected_fragment, null);
-		return view;
+	public BaseListController configRefreshController() {
+		return null;
 	}
 
 	@Override
-	public void onAttach(Activity activity) {
-		super.onAttach(activity);
-		this.act = (HomeAct) activity;
+	public BaseListController configFileController() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public BaseListController configMoreController() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

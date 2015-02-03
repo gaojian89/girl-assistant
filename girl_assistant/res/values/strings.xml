@@ -15,5 +15,6 @@
     <string name="talk">话题</string>
     <string name="master">达人</string>
     <string name="label">标签</string>
+    <string name="add_more_tips_text">显示下%1$d条</string>
 
 </resources>
